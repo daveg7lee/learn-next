@@ -17,12 +17,14 @@ const style = css`
   }
   .profile-image-wrapper {
     width: 100%;
-    border: 1px solid grey  ;
   }
   .profile-image-wrapper,
   .profile-image {
     display: block;
     width: 100%;
+  }
+  .profile-image {
+    border-radius: 10%;
   }
   .profile-username {
     margin: 0;
@@ -48,7 +50,7 @@ const style = css`
     margin-left: 6px;
   }
   a {
-    color: #3e99ee;
+    color: #0366d6;;
     text-decoration: none;
   }
 `;
